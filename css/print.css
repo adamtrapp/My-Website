@@ -1,0 +1,195 @@
+a::after {
+  content: " (" attr(href) ")";
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  color: #000;
+  background-color: #fff !important;
+  background-image: none !important;
+}
+
+div.content {
+  overflow: hidden;
+
+  background-color: #fff;
+
+  width: 100%;
+  margin: auto;
+
+  border: none;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+#logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: initial;
+  width: 200px;
+}
+
+.introduction {
+  place-self: center stretch;
+  text-align: right;
+}
+
+.introduction h2 {
+  font-size: large;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.introduction p {
+  margin-top: 0.1em;
+  margin-bottom: auto;
+}
+
+.links {
+  margin-top: initial;
+}
+
+.links img {
+  height: 125px;
+}
+
+.link {
+  text-align: center;
+
+  padding: initial;
+
+  margin-bottom: 10px;
+
+  border: none;
+  box-shadow: none;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: 0.2fr 0.5fr 0.5fr 0.4fr;
+  grid-template-areas:
+    "qr_codes certs skills education"
+    "qr_codes languages buzzwords education"
+    "experience experience experience experience";
+
+  font-size: 12px;
+}
+
+.resume h1 {
+  margin-top: 5px;
+  border-bottom: 2.5px solid;
+  font-size: 14px;
+}
+
+.resume ul {
+  margin: 0;
+}
+
+.qr_codes {
+  grid-area: qr_codes;
+
+  display: grid !important;
+  align-items: start;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.certs {
+  grid-area: certs;
+}
+
+.certs img {
+  height: 50px;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.languages {
+  grid-area: languages;
+}
+
+.buzzwords {
+  grid-area: buzzwords;
+}
+
+.boxes ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0.5em;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+.boxes li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  justify-content: initial;
+  align-items: initial;
+  text-align: initial;
+
+  margin: initial;
+  min-width: initial;
+  padding: initial;
+  border: none;
+  box-shadow: none;
+}
+
+.experiences {
+  grid-area: experience;
+}
+
+.experiences h1 {
+  margin-top: 0;
+}
+
+.experience {
+  margin: 8px;
+  padding: 5px;
+  box-shadow: 3px 3px black;
+}
+
+.experience h2 {
+  font-size: 12px;
+  margin-top: 0.1em;
+}
+
+.experience h3 {
+  font-size: 12px;
+  margin-bottom: 0.2em;
+}
+
+.experience p {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+.experience img {
+  display: none;
+}
+
+.education {
+  grid-area: education;
+}
+
+div.sky_chart {
+  display: none;
+}
+
+.print_only {
+  display: initial;
+}
+.web_only {
+  display: none;
+}
