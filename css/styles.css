@@ -58,6 +58,7 @@ div.info {
 #header-text p {
 	margin-top: 0;
 }
+
 #face {
   grid-area: face;
 }
@@ -75,17 +76,10 @@ div.info {
 
 #personal-information {
 	grid-area: personal-information;
-	/* display: flex;
-	justify-content: right;
-	align-items: center; */
 }
 
 #personal-information h1 {
 	margin-top: 0;
-}
-
-.certs img {
-  height: 75px;
 }
 
 .boxes ul {
@@ -108,7 +102,7 @@ div.info {
   box-shadow: 7px 7px black;
 }
 
-.resume h1 {
+.resume-section h1 {
   font-size: 2.5em;
   border-bottom: 5px solid;
 }
@@ -127,18 +121,6 @@ div.info {
 .experience h3 {
   margin-top: 0.1em;
   margin-bottom: 0.5em;
-}
-
-.box_yellow {
-  background-color: #fff35f;
-}
-
-.box_pink {
-  background-color: #f27796;
-}
-
-.box_green {
-  background-color: #07bba0;
 }
 
 .print_only {
