@@ -22,7 +22,7 @@ a {
 }
 
 div.content h1 {
-  font-family: "hemondalisaregular", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: #f8f8f2;
 }
 
@@ -80,26 +80,6 @@ div.info {
 
 #personal-information h1 {
 	margin-top: 0;
-}
-
-.boxes ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  list-style-type: none;
-  padding: 0;
-}
-
-.boxes li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  margin: 10px;
-  min-width: 150px;
-  padding: 0.75em 0.5em 0.75em 0.5em;
-  border: 2px solid black;
-  box-shadow: 7px 7px black;
 }
 
 .resume-section h1 {
