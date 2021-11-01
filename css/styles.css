@@ -21,6 +21,11 @@ a {
 	color: #66D9EF;
 }
 
+p {
+  font-size:1.5em;
+  line-height:1.33em;
+}
+
 div.content h1 {
   font-family: Arial, sans-serif;
   color: #f8f8f2;
@@ -68,8 +73,10 @@ div.info {
 	   Red    #F92672
 	   Purple #AE81FF
 	   Orange #FD971F
+     Light Orange #E69F66
+     Blue #66D9EF
 	*/
-	border: solid #FD971F 5px;
+	border: solid #E69F66 5px;
 	border-radius: 15px;
   width: 95%;
 }
@@ -92,6 +99,7 @@ div.info {
   padding: 10px;
   border: 2px solid black;
   box-shadow: 7px 7px black;
+  /*font-size: 1px;*/
 }
 
 .experience h2 {
